@@ -94,3 +94,33 @@ body, html {
     padding: 4px;
     border-radius: 8px;
   }
+
+  /* Hover Effects */
+button:hover, .history-btn:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  /* Typography */
+  h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Responsive Design */
+  @media only screen and (max-width: 768px) {
+    .main-container {
+      flex-direction: column;
+    }
+  
+    .search-column, .weather-column {
+      width: 100%;
+    }
+  }
+
+  #current-weather {
+    display: none; /* Hide initially */
+  }
+  
+  footer {
+    text-align: center;
+  }
