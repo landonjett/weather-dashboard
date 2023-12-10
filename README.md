@@ -8,7 +8,7 @@ This webpage is designed to show you the current weather along with a 5 day fore
 
 ## Usage 
 
-To use the Weather Dashboard webpage, simply click on this link here: 
+To use the Weather Dashboard webpage, simply click on this link here: https://landonjett.github.io/weather-dashboard/
 
 Once you are on the webpage, type a city into the search bar and examine the weather for today and the next 5 days so you can plan accordingly. after reviewing the first cities weahter, type in another ity into your search bar and watch as your previous city is saved on the left side of the screen for quick access in the future. see a screenshit below for your reference. 
 
