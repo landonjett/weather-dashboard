@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Assets/style.css">
+  <title>Weather Dashboard</title>
+</head>
+<body>
+    <div class="header-container">
+    <h1>Weather Dashboard</h1>
+</div>
+<div class="main-container">
+    <div class="search-column">
+    <!-- Search Bar and Saved Cities Here -->
+    <form id="search-form">
+        <input type="text" id="city-input" placeholder="Enter City">
+        <button type="submit">Search</button>
+    </form>
+    <div id="search-history"></div>
+    <footer>
+      Data provided by OpenWeatherMap <span id="last-updated-time"></span>
+    </footer>
+  </div>
+
+  <div class="weather-column">
+    <!-- Today's Weather and 5-Day Forecast Here -->
+    <div id="current-weather"></div>
+    <div id="forecast">
+      <!-- Forecast Items Here -->
+    </div>
+  </div>
+</div>
+
+  <script src="./Assets/script.js"></script>
+</body>
+
+</html>
