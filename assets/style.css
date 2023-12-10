@@ -54,3 +54,43 @@ body, html {
     border: 1px solid #ccc;
     border-radius: 5px;
   }
+
+  /* Search History */
+#search-history div, #search-history button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  #search-history div:hover, #search-history button:hover {
+    background-color: #e2e2e2;
+  }
+
+  /* Weather Display */
+#current-weather, .forecast-item {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  #forecast {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: space-around;
+  }
+  
+  .forecast-item {
+    width: calc(100% / 5 - 10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333333;
+    padding: 4px;
+    border-radius: 8px;
+  }
